@@ -24,11 +24,11 @@
     <h4>Detection Result:</h4>
 
     @if($result == "normal messsage")
-    <p>The message sent is <strong><span style="color: green">{{ $result }}</span></strong> </p>
+    <p>The message sent is <strong><span style="color: green;">{{ $result }}</span></strong> </p>
 
     @else
 
-    <p> The message sent is <strong><span style="color: red">{{ $result }}</span></strong> </p>
+    <p> The message sent is <strong><span style="color: red;">{{ $result }}</span></strong> </p>
     
     @endif 
     
