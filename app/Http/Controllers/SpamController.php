@@ -31,7 +31,7 @@ class SpamController extends Controller
 		$message = $request["message"];
 
        // Add client and call the API
-		$client = Algorithmia::client("simf0SIAPK6iySIyJXrGqsFPXBF1");
+		$client = Algorithmia::client("YOUR-API-KEY");
 		$algo = $client->algo("Davis/spam_detection/0.2.0");
 		
 		// perform prediction and save result
