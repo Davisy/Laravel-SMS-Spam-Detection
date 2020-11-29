@@ -5,6 +5,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+
+
 ## About SMS Spam Detection Laravel Application
 
 Laravel is a web application framework with expressive, elegant syntax.This project show how you can call  NLP model API from Algorithmia MLOps using Algorithmia PHP Client to detect spam text meessage.
